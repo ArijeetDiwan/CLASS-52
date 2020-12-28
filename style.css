@@ -1,0 +1,94 @@
+h1 {
+    color: white;
+  margin-top: 1px;
+  border: solid;
+  margin-left: 8px;
+margin-right: 10px;
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 5px;
+padding-top: 4px;
+}
+.city{
+    color: blue;
+background-color: red;
+border: black;
+}
+
+.School{ 
+    color: darkblue;
+background-color: forestgreen;
+border: sienna;
+}
+.School p {
+    font-weight: bold;
+    font-size: large;
+color:white;
+}
+.School ul{
+    font-size: larger;
+font-weight: 400;
+font-style: initial;
+}
+.item img{
+border: solid;
+border-radius: 30px;
+}
+.item:hover p {
+opacity:0.8 ;
+color: red;
+
+}
+.item:hover img{
+    opacity:0.33;
+}
+
+.menu a{
+
+    margin-right: 30px;
+margin-left: 20px;
+color: lime;
+} 
+body{
+
+   background-color:black; 
+}
+a:link{
+color: red;
+
+}
+a:visited{
+color:blue;
+
+}
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border:solid ;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
